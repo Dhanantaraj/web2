@@ -1,0 +1,38 @@
+
+body{
+    font-family: helvetica;
+}
+h2{
+    margin-bottom: 5px;
+}
+h2::first-letter{
+    color: #013A33 ;
+    font-size: 40px;
+}
+table{
+    
+    width: 60%;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    
+}
+tr:nth-child(odd){
+    background-color:#f0eceb;
+}
+th{
+    color: white;
+    background-color:#013A33 ;
+    text-align: left;
+     border: 1px solid #e6e2e1;
+     padding: 10px;
+}
+td{
+     text-align: left;
+     border: 1px solid #e6e2e1;
+     padding: 20px;
+    
+}
+tr:hover{
+    background-color:#d4d2d2;
+    
+}

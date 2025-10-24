@@ -1,0 +1,31 @@
+body{
+    font-family: helvetica;
+}
+.div1{
+    margin: 20px; 
+    padding: 10px; 
+    border: solid 1px #cccccc ;
+    width: 50%;
+}
+.div2{
+    background-color:rgba(0, 60, 45, 1); 
+    font-weight: bold;
+    color: WHITE;
+    text-align: left;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 5px;
+}
+th{
+    border:1px solid #cccccc; 
+    padding: 10px; 
+    background-color: rgb(158, 170, 158);
+    color: white;
+}
+td{
+    border: 1px solid #cccccc;
+    padding: 10px;
+}

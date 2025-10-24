@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vison and Mission</title>
+    <style>
+         .circle-arrow-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.circle-arrow-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.circle-arrow-list li::before {
+  content: '❯'; 
+
+  position: absolute;
+  left: 0;
+  top: 40%;
+  transform: translatey(-50%);
+  background-color: rgb(128,145,128);
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.all{
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 2px 2px  7px 2px #edebeb;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    width: 80%;
+    
+    border: solid 1px #dedcdc;
+}
+.first{
+    padding: 1px; 
+    background-color: #013A33;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.second,.third{
+    
+     box-shadow: 2px 2px  7px 2px #e0e0e0;
+    background-color: #fcfcfc;
+    border: 1px solid #d9d9d9;
+    margin:15px ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.s1,.t1 ,.circle-arrow-list{
+    margin-left: 10px;
+    margin: 10px;
+}
+p{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.t1,.s1{
+    color: #013A33;
+    font-size: 30px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="first"><h1>Vision & Mission</h1></div>
+        <div class="second">
+            <div class="s1">Vison</div>
+            <p>Towards a knowledge hub of excellence in education, research, innovation, entrepreneurship and nurturing skilled professionals committed to sustainable ecosystem.</p>
+        </div>
+        <div class="third">
+            <div class="t1">Mission</div>
+             <ul class="circle-arrow-list">
+                <li>To impart quality education in engineering technology and allied fields to produce competent and ethical professionals. </li>
+                <li>To foster a culture of research and innovation that addresses emerging challenges and contributes to technological growth. </li>
+                <li>To promote entrepreneurship and leadership skills for developing sustainable solutions, socio-economic growth and global well being.</li>
+               
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
